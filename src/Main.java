@@ -45,5 +45,9 @@ public class Main {
 
         int d = 'a' + 5; // преобразование в тип int
         System.out.println(d);  // 102
+
+        short shortNum = 257;
+        byte byteNum = (byte)shortNum;
+        System.out.println(byteNum); // 1
     }
 }
